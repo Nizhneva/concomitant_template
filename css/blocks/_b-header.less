@@ -1,0 +1,50 @@
+.b-header{
+    height: 135px;
+    background-color: #fff;
+    
+    &__brandName{
+        color: #333333;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 46px;
+    }
+    &__sign{
+        color:  #999999;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+    }
+    &__menu{
+        list-style: none;
+        display: flex;
+    }
+    &__menuItem{
+        color: @main-bright-color;
+        border-right: solid 1px @main-bright-color;
+        
+        &:last-child{
+            border-right: none;
+        }
+        &:hover{
+            color: #000;
+            cursor: pointer;
+        }
+    }
+}
+
+.b-header--position{
+    margin-top: -49px;
+    padding-top: 36px;
+    padding-left: 29px;
+    padding-right: 30px;
+}
+.b-header__brandName--position{
+    padding-bottom: 15px;
+}
+.b-header__menu--right{
+    float: right;
+}
+.b-header__menuItem--position{
+    padding-left: 5px;
+    padding-right: 5px;
+}

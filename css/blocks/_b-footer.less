@@ -1,0 +1,79 @@
+.b-footer {
+    background-color: #3b3b3b;
+    color: #999999;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 22px;
+    
+    &__title {
+        color: #666666; 
+    }
+
+    &__linkText {
+        text-decoration: none;
+        color: #999999;
+        display: block;
+        border-bottom: 1px solid #484848;
+    }
+    
+    &__blogTitle {
+        font-weight: bold;
+    }
+    
+    &__readMore {
+        color: @main-bright-color;
+        font-size: 13px;
+        font-weight: 400;
+        text-decoration: none;
+        
+        &:hover{
+            color: #999999;
+        }
+    }
+    
+    &__newsletterInput {
+        background-color: #000;
+        border: none;
+        outline: none;
+        color: #999999;
+        border-radius: 6px;
+    }
+    
+    &__newsletterButton {
+        text-decoration: none;
+        background-color: #000;
+        border-radius: 6px;
+        color: @main-bright-color;
+        display: inline-block;
+    }
+}
+
+.b-footer--position {
+    padding: 40px 30px;
+}
+.b-footer__title--position {
+    margin-bottom: 30px;
+}
+.b-footer__contactsText--position {
+    margin-bottom: 25px;
+}
+.b-footer__linkText--position {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.b-footer__blogTitle--position{
+    margin-bottom: 10px;
+}
+.b-footer__blogArticlePostedBy--position{
+    margin-bottom: 10px;
+}
+.b-footer__readMore--position {
+    float: right;
+}
+.b-footer__newsletterInput--position{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.b-footer__newsletterButton--position {
+    padding: 10px;
+}
